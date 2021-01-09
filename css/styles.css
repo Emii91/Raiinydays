@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-Black.ttf") format("truetype");
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf") format("truetype");
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf") format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 20px 0px;
+}
+
+nav {
+    margin-left: 20px;
+    display: none;
+    position: fixed;
+    background-color: white;
+}
+
+nav li {
+    font-size: 20px;
+    display: block;
+    color: #0A3641;
+}
+
+nav a {
+    color: #0A3641;
+    font-family: "Source Sans Pro Black";
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 30px;
+    margin: 10px;
+    top: 45px;
+    z-index: 1000;
+    right: 0px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    }
+
+nav ul {
+    padding: 0px;
+}
+
+.logo {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+.img-header,
+.img-new {
+    width: 100%;
+}
+
+.shop-now .btn {
+    background-color: #8C3723;
+    color: #ffffff;
+    font-family: "Source Sans Pro Black";
+    padding: 5px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.shop-now {
+    position: relative;
+    top: -50px;
+    left: 80px;
+    width: 100%;
+}
+
+.shop-now .btn:hover {
+    text-decoration: underline;
+}
+
+.img-women,
+.img-hikinggear,
+.img-men {
+    width: 100%;
+}
+
+h1 {
+    font-family: "Source Sans Pro Regular";
+    font-size: inherit;
+    text-align: center;
+    margin: 20px;
+    color: #0A3641;;
+}
+
+.img-module3,
+.text-module3 {
+    width: 100%;
+}
+
+.img-module4 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #0A3641;
+    color: white;
+    font-family: "Source Sans Pro Black";
+}
+
+footer a {
+    color: white;
+    font-family: "Source Sans Pro Regular";
+    display: block;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

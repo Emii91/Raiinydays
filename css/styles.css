@@ -10,15 +10,23 @@
     padding: 0;
 }
 
+
+/* Navigation */
+
 header {
-    margin: 20px 0px;
+    margin: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 nav {
-    margin-left: 20px;
     display: none;
     position: fixed;
     background-color: white;
+    top: 95px;
+    left: 30%;
+    z-index: 1000;
 }
 
 nav li {
@@ -33,23 +41,18 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     padding: 30px;
-    margin: 10px;
-    top: 45px;
-    z-index: 1000;
-    right: 0px;
+    margin: 30px;
+    font-size: 10px;
 }
-
-nav a:hover {
-    text-decoration: underline;
-    }
 
 nav ul {
     padding: 0px;
 }
 
 .logo {
-    width: 100%;
-    margin: 0px 0px 20px 0px;
+    width: 50%;
+    margin: 0px;
+    padding: 0px 10px;
 }
 
 #hamburger-menu {
@@ -59,6 +62,8 @@ nav ul {
 #hamburger-menu:checked ~ nav {
     display: block;
 }
+
+/* Main */
 
 .img-header,
 .img-new {
@@ -78,7 +83,7 @@ nav ul {
 .shop-now {
     position: relative;
     top: -50px;
-    left: 80px;
+    left: 90px;
     width: 100%;
 }
 
@@ -110,18 +115,41 @@ h1 {
     margin-bottom: 20px;
 }
 
+
+/* Footer */
+
 footer {
     background-color: #0A3641;
     color: white;
     font-family: "Source Sans Pro Black";
+    padding: 0px;
 }
 
 footer a {
     color: white;
     font-family: "Source Sans Pro Regular";
-    display: block;
+    text-decoration: none;
+    font-size: small;
 }
 
-footer a:hover {
-    text-decoration: underline;
+h2 {
+    font-size: small;
+    margin-top: 20px;
 }
+
+
+.footer-1 a,
+.footer-2 a,
+.footer-3 a,
+h2,
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons {
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+

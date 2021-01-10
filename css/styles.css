@@ -42,7 +42,7 @@ nav a {
     text-transform: uppercase;
     padding: 30px;
     margin: 30px;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 nav ul {
@@ -67,7 +67,7 @@ nav ul {
 
 .img-header,
 .img-new {
-    width: 100%;
+    width: 123%;
 }
 
 .shop-now .btn {
@@ -83,7 +83,7 @@ nav ul {
 .shop-now {
     position: relative;
     top: -50px;
-    left: 90px;
+    left: 160px;
     width: 100%;
 }
 
@@ -95,6 +95,7 @@ nav ul {
 .img-hikinggear,
 .img-men {
     width: 100%;
+    margin-left: 50px;
 }
 
 h1 {
@@ -102,16 +103,17 @@ h1 {
     font-size: inherit;
     text-align: center;
     margin: 20px;
-    color: #0A3641;;
+    color: #0A3641;
+    margin-left: 100px;
 }
 
 .img-module3,
 .text-module3 {
-    width: 100%;
+    width: 123%;
 }
 
 .img-module4 {
-    width: 100%;
+    width: 123%;
     margin-bottom: 20px;
 }
 
@@ -123,6 +125,7 @@ footer {
     color: white;
     font-family: "Source Sans Pro Black";
     padding: 0px;
+    width: 123%;
 }
 
 footer a {
@@ -152,4 +155,28 @@ h2,
     justify-content: space-evenly;
 }
 
+@media (min-width: 800px) {
+   .logo {
+       width: 25%;
+       padding: 0px;
+   }
 
+   .hamburger {
+       display: none;
+   }
+
+   .img-header,
+   .img-new {
+       width: 100%;
+   }
+
+   .img-women, 
+   .img-hikinggear, 
+   .img-men {
+       margin-left: 0px;
+   }
+
+   h1 {
+       font-size: xx-large;
+   }
+}

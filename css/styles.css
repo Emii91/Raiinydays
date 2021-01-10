@@ -155,28 +155,4 @@ h2,
     justify-content: space-evenly;
 }
 
-@media (min-width: 800px) {
-   .logo {
-       width: 25%;
-       padding: 0px;
-   }
 
-   .hamburger {
-       display: none;
-   }
-
-   .img-header,
-   .img-new {
-       width: 100%;
-   }
-
-   .img-women, 
-   .img-hikinggear, 
-   .img-men {
-       margin-left: 0px;
-   }
-
-   h1 {
-       font-size: xx-large;
-   }
-}
